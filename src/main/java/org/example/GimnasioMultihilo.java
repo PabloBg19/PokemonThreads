@@ -19,7 +19,7 @@ public class GimnasioMultihilo {
         System.out.println("Entrenador: ¡Pika-Runner, empieza!");
 
          pikaCorredor.start(); // <-- Completa esta línea
-
+//cambio
 
         System.out.println("\n--- MÉTODO 2: Interfaz (implements Runnable) ---");
 
