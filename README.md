@@ -1,6 +1,6 @@
 # PokemonThreads
 
-## ¿Cuál es la diferencia en cómo iniciamos PikachuCorredor vs CharizardVolador?
+# ¿Cuál es la diferencia en cómo iniciamos PikachuCorredor vs CharizardVolador?
 Este ejercicio demuestra **dos formas de ejecutar tareas en Java con hilos (threads)**:  
 - una mediante **herencia** (`extends Thread`)  
 - y otra mediante **implementación de interfaz** (`implements Runnable`).
