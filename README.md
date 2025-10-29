@@ -1,13 +1,13 @@
 # PokemonThreads
 
-#¿Cuál es la diferencia en cómo iniciamos PikachuCorredor vs CharizardVolador?
+## ¿Cuál es la diferencia en cómo iniciamos PikachuCorredor vs CharizardVolador?
 Este ejercicio demuestra **dos formas de ejecutar tareas en Java con hilos (threads)**:  
 - una mediante **herencia** (`extends Thread`)  
 - y otra mediante **implementación de interfaz** (`implements Runnable`).
 
 ---
 
-## ⚡ PikachuCorredor — “ES UN” Hilo (`extends Thread`)
+# ⚡ PikachuCorredor — “ES UN” Hilo (`extends Thread`)
 
 Pikachu **hereda** de la clase `Thread`, lo que significa que **él mismo es un hilo de ejecución**.
 
@@ -61,7 +61,7 @@ Charizard empieza su misión de vuelo! (Método: implements Runnable)
 Pikachu terminó la carrera!
 Charizard terminó la misión!
 ```
-#Si PikachuCorredor quisiera heredar también de Pokemon, ¿sería posible? ¿Por qué?
+# Si PikachuCorredor quisiera heredar también de Pokemon, ¿sería posible? ¿Por qué?
 
 En Java, **una clase solo puede heredar de una clase a la vez**.  
 Esto se debe a que **Java no permite herencia múltiple de clases**, para evitar conflictos de ambigüedad en los métodos o atributos que podrían venir de múltiples padres.
@@ -112,7 +112,7 @@ hilo.start();
 | Solución para Pikachu | Heredar de `Pokemon` e implementar `Runnable` |
 | Ventaja | Flexibilidad y mantenimiento limpio del código |
 
-#¿Y CharizardVolador podría heredar de Pokemon además de implementar Runnable?
+# ¿Y CharizardVolador podría heredar de Pokemon además de implementar Runnable?
 
 En Java, **una clase puede heredar de UNA sola clase** (por ejemplo, `Pokemon`),  
 **pero puede implementar múltiples interfaces** (como `Runnable`, `Serializable`, etc.).
